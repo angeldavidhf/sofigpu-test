@@ -20,10 +20,6 @@ function Users() {
     getUsers()
   }, []);
 
-  const renderItemIcon = (props) => (
-    <Icon {...props} name='person'/>
-  );
-
   const renderItem = ({ item, index }) => (
     item.map((usr) => {
       return (
